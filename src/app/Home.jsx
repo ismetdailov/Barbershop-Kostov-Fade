@@ -95,10 +95,10 @@ function Navbar({ menuOpen, setMenuOpen }) {
           </li> */}
         </ul>
         <div className="social-icons">
-          <a href="#">
+         <a href="https://www.facebook.com/profile.php?id=61570196564849" rel="noopener noreferrer" target="_blank">
             <FaFacebook color="blue" />
           </a>
-          <a href="#">
+           <a href="https://www.instagram.com/barbershop_kostovfade?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" rel="noopener noreferrer" target="_blank">
             <FaInstagram color="blue" />
           </a>
         </div>
