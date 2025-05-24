@@ -295,9 +295,13 @@ function App() {
     <div className="footer-section">
       <h3>Работно време</h3>
       <ul>
-        <li>Пон-Пет: 10:00 – 19:00</li>
-        <li>Събота: 10:00 – 17:00</li>
-        <li>Неделя: Почивен ден</li>
+        <li>Понеделник:   10:00 – 19:00</li>
+        <li>Вторник:      Почивен ден</li>
+        <li>Сряда:        10:00 – 19:00</li>
+        <li>Четвъртък:    10:00 – 19:00</li>
+        <li>Петък:        10:00 – 19:00</li>
+        <li>Събота:       10:00 – 19:00</li>
+        <li>Неделя:      10:00 – 16:00</li>
       </ul>
     </div>
 
@@ -310,10 +314,11 @@ function App() {
     <div className="footer-section">
       <h3>Бързи връзки</h3>
       <ul>
-        <li><a href="/about">За нас</a></li>
+        {/* <li><a href="/about">За нас</a></li> */}
         <li><a href="/gallery">Галерия</a></li>
-        <li><a href="/booking">Резервация</a></li>
-        <li><a href="/blog">Блог</a></li>
+        <li><a href="/Prices">Цени</a></li>
+        {/* <li><a href="/booking">Резервация</a></li>
+        <li><a href="/blog">Блог</a></li> */}
       </ul>
     </div>
   </div>
