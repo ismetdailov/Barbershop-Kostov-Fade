@@ -3,8 +3,7 @@
   background-color: #f3f4f6;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 1rem;
+  /* justify-content: center; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/Designer%20%2824%29.jpeg);
   background-size: cover;
   background-position: center;
@@ -13,9 +12,10 @@
 }
 .header-container{
   width: 95%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
    margin-top: 0; /* премахва горния маргин */
   padding-top: 0; /* премахва горния падинг */
+  border-radius: 20px;
 }
 .navbar {
   display: flex;

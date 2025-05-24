@@ -11,9 +11,13 @@ export default function Header() {
 
   return (
     <header className="navbar">
-      <div className="logo">
-        <img className="logo-image" src="/images/лого.jpg" alt="Лого" />
-      </div>
+
+<div className="logo">
+  <Link href="/">
+    <img className="logo-image" src="/images/лого.jpg" alt="Лого" />
+  </Link>
+</div>
+
 
       <nav>
         <ul className={menuOpen ? "show" : ""}>

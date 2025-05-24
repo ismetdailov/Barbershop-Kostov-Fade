@@ -16,9 +16,9 @@ const Prices = () => {
 
   return (
     <div className="prices-container">
-      {/* <div className="header-container">
+      <div className="header-container">
       <Header />
-      </div> */}
+      </div>
       <div className="prices-card">
         <div className="prices-header">
           <img src="/images/лого.jpg" alt="Лого" className="logo-image" />
