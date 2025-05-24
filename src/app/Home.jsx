@@ -112,6 +112,7 @@ function Navbar({ menuOpen, setMenuOpen }) {
 // Пример за анимирана секция (ако искате да я използвате)
 const AnimatedSection = () => {
   return (
+    
     <div
       style={{
         display: "flex",
@@ -161,7 +162,15 @@ function App() {
   
 
   return (
+    
     <div className="App">
+        <Head>
+        <meta property="og:title" content="Barbershop Kostov Fade" />
+        <meta property="og:description" content="Запази си час при най-добрите барбъри в Пловдив!" />
+        <meta property="og:image" content="https://barbershopkostovfade.vercel.app/public/images/salon2.jpg" />
+        <meta property="og:url" content="https://barbershopkostovfade.vercel.app/" />
+        <meta property="og:type" content="website" />
+      </Head>
       {/* Navbar */}
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 
@@ -172,7 +181,8 @@ function App() {
       <section className="banner">
         <div className="banner-image">
           <img
-            src="/images/Untitled00086430.png"
+            // src="/images/Untitled00086430.png"
+            src="/images/salon2.jpg"
             alt="Барбершоп Костов Фейд Салон"
             className="zoom-image"
           />
