@@ -72,10 +72,10 @@ export default function GalleryPage() {
   return (
 
     <main className="gallery-main">
-      <dif className="gallery-header">
+      {/* <dif className="gallery-header">
 
       <Header />
-      </dif>
+      </dif> */}
       <div className="gallery-wrapper">
 
         <div className="gallery-slider">
