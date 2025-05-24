@@ -7,6 +7,7 @@ import { FaFacebook, FaInstagram, FaBars, FaTimes } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { useState } from 'react';
 import Contact from "../app/Maps";
+import Header from "./Header";
 // app/page.js (или app/home/page.js – където ти е началната страница)
 
 export const metadata = {
@@ -25,85 +26,86 @@ export const metadata = {
 function Navbar({ menuOpen, setMenuOpen }) {
   return (
     
-    <header className="navbar">
-      <div className="logo">
-        <img className="logo-image" src="/images/лого.jpg" alt="Лого" />
-      </div>
-      {/* <button className="burger-menu" onClick={() => setMenuOpen(!menuOpen)}>
-        <FaBars />
-      </button> */}
-      <nav>
-        <ul className={menuOpen ? "show" : ""}>
-          {/* <li>
-            <a href="#">Начало</a>
-          </li> */}
-          <li>
-            <Link href="/gallery" onClick={() => setMenuOpen(false)}>Галерия</Link>
-          </li>
-          <li>
-          <Link href="/Prices" onClick={() => setMenuOpen(false)}>Цени</Link>
-          </li>
-          {/* <li>
-            <a href="#">Резервации</a>
-          </li> */}
-          {/* <li>
-            <a href="#">За нас</a>
-          </li>
-          <li>
-            <a href="#">Блог</a>
-          </li> */}
-        </ul>
-      </nav>
-      <div className="social-icons">
-        <a href="https://www.facebook.com/profile.php?id=61570196564849" rel="noopener noreferrer" target="_blank">
-          <FaFacebook color="blue" />
-        </a>
-        <a href="https://www.instagram.com/barbershop_kostovfade?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" rel="noopener noreferrer" target="_blank">
-          <FaInstagram color="blue" />
-        </a>
-      </div>
-      {/* Бургер меню бутон */}
-      <button className="burger-menu" onClick={() => setMenuOpen(!menuOpen)}>
-        <FaBars />
-      </button>
+//     <header className="navbar">
+//       <div className="logo">
+//         <img className="logo-image" src="/images/лого.jpg" alt="Лого" />
+//       </div>
+//       {/* <button className="burger-menu" onClick={() => setMenuOpen(!menuOpen)}>
+//         <FaBars />
+//       </button> */}
+//       <nav>
+//         <ul className={menuOpen ? "show" : ""}>
+//           {/* <li>
+//             <a href="#">Начало</a>
+//           </li> */}
+//           <li>
+//             <Link href="/gallery" onClick={() => setMenuOpen(false)}>Галерия</Link>
+//           </li>
+//           <li>
+//           <Link href="/Prices" onClick={() => setMenuOpen(false)}>Цени</Link>
+//           </li>
+//           {/* <li>
+//             <a href="#">Резервации</a>
+//           </li> */}
+//           {/* <li>
+//             <a href="#">За нас</a>
+//           </li>
+//           <li>
+//             <a href="#">Блог</a>
+//           </li> */}
+//         </ul>
+//       </nav>
+//       <div className="social-icons">
+//         <a href="https://www.facebook.com/profile.php?id=61570196564849" rel="noopener noreferrer" target="_blank">
+//           <FaFacebook color="blue" />
+//         </a>
+//         <a href="https://www.instagram.com/barbershop_kostovfade?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" rel="noopener noreferrer" target="_blank">
+//           <FaInstagram color="blue" />
+//         </a>
+//       </div>
+//       {/* Бургер меню бутон */}
+//       <button className="burger-menu" onClick={() => setMenuOpen(!menuOpen)}>
+//         <FaBars />
+//       </button>
 
-      {/* Странично меню */}
-      <div className={`mobile-menu ${menuOpen ? "open" : ""}`}>
-        <button className="close-menu" onClick={() => setMenuOpen(false)}>
-          <FaTimes />
-        </button>
-        <ul>
-          <li>
-            <a href="/">Начало</a>
-          </li>
-          <li>
-            <Link href="/gallery" onClick={() => setMenuOpen(false)}>Галерия</Link>
-          </li>
-          <li>
-          <Link href="/Prices" onClick={() => setMenuOpen(false)}>Цени</Link>
-          </li>
-          <li>
-            <a href="https://kostovfade.setmore.com/raycho" target="_blank" rel="noopener noreferrer">
-  <button className="btn">Запази час</button>
-</a>
-          </li>
-          {/* <li>
-            <a href="#">За нас</a>
-          </li>
-          <li>
-            <a href="#">Блог</a>
-          </li> */}
-        </ul>
-        <div className="social-icons">
-         <a href="https://www.facebook.com/profile.php?id=61570196564849" rel="noopener noreferrer" target="_blank">
-            <FaFacebook color="blue" />
-          </a>
-           <a href="https://www.instagram.com/barbershop_kostovfade?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" rel="noopener noreferrer" target="_blank">
-            <FaInstagram color="blue" />
-          </a>
-        </div>
-      </div>
-    </header>
+//       {/* Странично меню */}
+//       <div className={`mobile-menu ${menuOpen ? "open" : ""}`}>
+//         <button className="close-menu" onClick={() => setMenuOpen(false)}>
+//           <FaTimes />
+//         </button>
+//         <ul>
+//           <li>
+//             <a href="/">Начало</a>
+//           </li>
+//           <li>
+//             <Link href="/gallery" onClick={() => setMenuOpen(false)}>Галерия</Link>
+//           </li>
+//           <li>
+//           <Link href="/Prices" onClick={() => setMenuOpen(false)}>Цени</Link>
+//           </li>
+//           <li>
+//             <a href="https://kostovfade.setmore.com/raycho" target="_blank" rel="noopener noreferrer">
+//   <button className="btn">Запази час</button>
+// </a>
+//           </li>
+//           {/* <li>
+//             <a href="#">За нас</a>
+//           </li>
+//           <li>
+//             <a href="#">Блог</a>
+//           </li> */}
+//         </ul>
+//         <div className="social-icons">
+//          <a href="https://www.facebook.com/profile.php?id=61570196564849" rel="noopener noreferrer" target="_blank">
+//             <FaFacebook color="blue" />
+//           </a>
+//            <a href="https://www.instagram.com/barbershop_kostovfade?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" rel="noopener noreferrer" target="_blank">
+//             <FaInstagram color="blue" />
+//           </a>
+//         </div>
+//       </div>
+//     </header>
+<Header/>
   );
 }
 

@@ -9,8 +9,20 @@
   background-size: cover;
   background-position: center;
   opacity: 1;
+  flex-direction: column;
 }
-
+.header-container{
+  width: 95%;
+  margin-bottom: 10%;
+   margin-top: 0; /* премахва горния маргин */
+  padding-top: 0; /* премахва горния падинг */
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+}
 .prices-card {
   background-color: #ffffff;
   border-radius: 1rem;

@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import "./Prices.css";
+import Header from "../Header"; // Assuming you have a Header component
 
 const Prices = () => {
   const prices = [
@@ -15,6 +16,9 @@ const Prices = () => {
 
   return (
     <div className="prices-container">
+      {/* <div className="header-container">
+      <Header />
+      </div> */}
       <div className="prices-card">
         <div className="prices-header">
           <img src="/images/лого.jpg" alt="Лого" className="logo-image" />
@@ -41,7 +45,25 @@ const Prices = () => {
             Запази час
           </button>
         </div>
+        
       </div>
+            <div className="floating-button">
+        <button
+          onClick={() =>
+            window.open("https://kostovfade.setmore.com/raycho", "_blank")
+          }
+          className="pulse"
+        >
+          <img
+            src="/images/—Pngtree—barbershop logo illustration vector clipart_15523083.png"
+            alt="Резервирай"
+            className="button-icon"
+          />
+          <span className="button-text">Запази</span>
+          <span className="button-text-second">час!</span>
+        </button>
+      </div>
+    
     </div>
   );
 };
