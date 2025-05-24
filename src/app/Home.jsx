@@ -164,13 +164,13 @@ function App() {
   return (
     
     <div className="App">
-        <Head>
+        {/* <Head>
         <meta property="og:title" content="Barbershop Kostov Fade" />
         <meta property="og:description" content="Запази си час при най-добрите барбъри в Пловдив!" />
         <meta property="og:image" content="https://barbershopkostovfade.vercel.app/public/images/salon2.jpg" />
         <meta property="og:url" content="https://barbershopkostovfade.vercel.app/" />
         <meta property="og:type" content="website" />
-      </Head>
+      </Head> */}
       {/* Navbar */}
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 
