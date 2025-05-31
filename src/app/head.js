@@ -16,15 +16,23 @@ export default function Head() {
       {/* Open Graph мета тагове */}
       <meta property="og:title" content="Barbershop Kostov Fade" />
       <meta property="og:description" content="Модерен бръснарски салон в Пловдив" />
-      <meta property="og:image" content="https://www.barbershopkostovfade.bg/images/og-image.jpg" />
+      <meta property="og:image" content="https://www.barbershopkostovfade.bg/images/salon2.jpg" />
       <meta property="og:url" content="https://www.barbershopkostovfade.bg/" />
       <meta property="og:type" content="website" />
+      <title>Цени - Barbershop Kostov Fade</title>
+      <meta name="description" content="Цени за услуги в Barbershop Kostov Fade" />
+      <meta property="og:title" content="Цени - Barbershop Kostov Fade" />
+      <meta property="og:description" content="Цени за услуги в Barbershop Kostov Fade" />
+      <meta property="og:url" content="https://www.barbershopkostovfade.bg/prices" />
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content="https://www.barbershopkostovfade.bg/images/salon2.jpg" />
 
+      {/* Twitter Card */}
       {/* Twitter Card мета тагове */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="Barbershop Kostov Fade" />
       <meta name="twitter:description" content="Модерен бръснарски салон в Пловдив" />
-      <meta name="twitter:image" content="https://www.barbershopkostovfade.bg/images/og-image.jpg" />
+      <meta name="twitter:image" content="https://www.barbershopkostovfade.bg/images/salon2.jpg" />
 
       {/* JSON-LD структурирани данни за търсачките */}
       <script
