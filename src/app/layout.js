@@ -45,7 +45,7 @@ export const metadata = {
     siteName: "Barbershop Kostov Fade",
     images: [
       {
-        url: "https://www.kostovfade.bg/images/og-image.jpg",
+        url: "https://www.barbershopkostovfade.bg/images/salon2.jpg",
         width: 1200,
         height: 630,
         alt: "Barbershop Kostov Fade",
@@ -59,7 +59,7 @@ export const metadata = {
     title: "Barbershop Kostov Fade",
     description: "Модерен бръснарски салон в Пловдив",
     creator: "@kostovfade", // ако имаш Twitter профил
-    images: ["https://www.kostovfade.bg/images/og-image.jpg"],
+    images: ["https://www.barbershopkostovfade.bg/images/salon2.jpg"],
   },
 };
 
