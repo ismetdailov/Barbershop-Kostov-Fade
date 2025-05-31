@@ -13,6 +13,19 @@ export default function Head() {
         rel="stylesheet"
       />
 
+      {/* Open Graph мета тагове */}
+      <meta property="og:title" content="Barbershop Kostov Fade" />
+      <meta property="og:description" content="Модерен бръснарски салон в Пловдив" />
+      <meta property="og:image" content="https://www.barbershopkostovfade.bg/images/og-image.jpg" />
+      <meta property="og:url" content="https://www.barbershopkostovfade.bg/" />
+      <meta property="og:type" content="website" />
+
+      {/* Twitter Card мета тагове */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Barbershop Kostov Fade" />
+      <meta name="twitter:description" content="Модерен бръснарски салон в Пловдив" />
+      <meta name="twitter:image" content="https://www.barbershopkostovfade.bg/images/og-image.jpg" />
+
       {/* JSON-LD структурирани данни за търсачките */}
       <script
         type="application/ld+json"
@@ -21,7 +34,7 @@ export default function Head() {
             "@context": "https://schema.org",
             "@type": "Barbershop",
             name: "Barbershop Kostov Fade",
-            image: "https://www.kostovfade.bg/images/logo.jpg",
+            image: "https://www.barbershopkostovfade.bg/images/logo.jpg",
             address: {
               "@type": "PostalAddress",
               streetAddress:
