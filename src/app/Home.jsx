@@ -23,7 +23,16 @@ export const metadata = {
   
 };
 
-
+<Head>
+  <title>Barbershop Kostov Fade | Бръснарски салон в Пловдив</title>
+  <meta name="description" content="Запази си час при най-добрите барбъри в Пловдив!" />
+  <meta property="og:title" content="Barbershop Kostov Fade" />
+  <meta property="og:description" content="Запази си час при най-добрите барбъри в Пловдив!" />
+  <meta property="og:image" content="https://barbershopkostovfade.bg/images/salon2.jpg" />
+  <meta property="og:url" content="https://barbershopkostovfade.bg" />
+  <meta property="og:type" content="website" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</Head>
 // Компонент Navbar
 function Navbar({ menuOpen, setMenuOpen }) {
   return (
