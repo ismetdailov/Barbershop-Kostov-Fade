@@ -19,6 +19,20 @@ export default function Head() {
       <meta property="og:image" content="https://www.barbershopkostovfade.bg/images/salon2.jpg" />
       <meta property="og:url" content="https://www.barbershopkostovfade.bg/" />
       <meta property="og:type" content="website" />
+       <meta property="og:title" content="Barbershop Plovdiv" />
+      <meta property="og:description" content="бръснарски салон в Пловдив" />
+      <meta property="og:image" content="https://www.barbershopkostovfade.bg/images/salon2.jpg" />
+      <meta property="og:url" content="https://www.barbershopkostovfade.bg/" />
+      <meta property="og:type" content="website" />
+       <meta property="og:title" content="барбершоп Пловдив" />
+      <meta property="og:description" content="barbershop Plovdiv" />
+      <meta property="og:image" content="https://www.barbershopkostovfade.bg/images/salon2.jpg" />
+      <meta property="og:url" content="https://www.barbershopkostovfade.bg/" />
+      <meta property="og:type" content="website" />
+      <meta property="og:description" content="barbershop PLovdiv" />
+      <meta property="og:image" content="https://www.barbershopkostovfade.bg/images/salon2.jpg" />
+      <meta property="og:url" content="https://www.barbershopkostovfade.bg/" />
+      <meta property="og:type" content="website" />
       <title>Цени - Barbershop Kostov Fade</title>
       <meta name="description" content="Цени за услуги в Barbershop Kostov Fade" />
       <meta property="og:title" content="Цени - Barbershop Kostov Fade" />

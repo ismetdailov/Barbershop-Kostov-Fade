@@ -10,6 +10,7 @@ import Contact from "../app/Maps";
 import Header from "./Header";
 import Head from 'next/head';
 
+
 // app/page.js (или app/home/page.js – където ти е началната страница)
 
 export const metadata = {
@@ -32,7 +33,9 @@ export const metadata = {
   <meta property="og:url" content="https://barbershopkostovfade.bg" />
   <meta property="og:type" content="website" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
 </Head>
+
 // Компонент Navbar
 function Navbar({ menuOpen, setMenuOpen }) {
   return (
