@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 
 // Метаданни
 export const metadata = {
-  title: "Barbershop Kostov Fade",
-  description: "Модерен бръснарски салон в Пловдив",
+  title: "Барбершоп Пловдив | Barbershop Kostov Fade – Модерен фейд и мъжки прически",
+  description: "Barbershop Kostov Fade | Оформяне на брада и подстригване в Пловдив",
   keywords: [
     "бръснарски салон",
     "бръснарски салон Пловдив",
@@ -35,7 +35,6 @@ export const metadata = {
     "мъжки прически Пловдив",
     "Barber",
     "Barber Пловдив",
-    "Barber PLovdiv",
     "Fade",
     "фейд",
     "подстригване",
@@ -51,9 +50,8 @@ export const metadata = {
   creator: "Barbershop Kostov Fade",
   robots: "index, follow",
   openGraph: {
-    openGraph: {
-    title: "Барбершоп Пловдив",
-    description: "Barbershop Kostov Fade | Оформяне на брада и подстригване в Пловдив",
+    title: "Барбершоп Пловдив | Barbershop Kostov Fade",
+    description: "Barbershop Kostov Fade | Модерен барбершоп за подстригване и оформяне на брада в Пловдив",
     url: "https://www.kostovfade.bg",
     siteName: "Barbershop Kostov Fade",
     images: [
@@ -61,38 +59,7 @@ export const metadata = {
         url: "https://www.barbershopkostovfade.bg/images/salon2.jpg",
         width: 1200,
         height: 630,
-        alt: "Barbershop Plovdiv",
-      },
-    ],
-    locale: "bg_BG",
-    type: "website",
-  },
-  openGraph: {
-    title: "Barbershop Plovdiv",
-    description: "Barbershop Kostov Fade | барбершоп в Пловдив",
-    url: "https://www.kostovfade.bg",
-    siteName: "Barbershop Kostov Fade",
-    images: [
-      {
-        url: "https://www.barbershopkostovfade.bg/images/salon2.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Barbershop Plovdiv",
-      },
-    ],
-    locale: "bg_BG",
-    type: "website",
-  },
-    title: "Barbershop Kostov Fade",
-    description: "Модерен бръснарски салон в Пловдив",
-    url: "https://www.kostovfade.bg",
-    siteName: "Barbershop Kostov Fade",
-    images: [
-      {
-        url: "https://www.barbershopkostovfade.bg/images/salon2.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Barbershop Kostov Fade",
+        alt: "Barbershop Kostov Fade - Барбершоп Пловдив",
       },
     ],
     locale: "bg_BG",
@@ -100,8 +67,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Barbershop Kostov Fade",
-    description: "Модерен бръснарски салон в Пловдив",
+    title: "Барбершоп Пловдив | Barbershop Kostov Fade",
+    description: "Barbershop Kostov Fade | Модерен барбершоп за подстригване и оформяне на брада в Пловдив",
     creator: "@kostovfade",
     images: ["https://www.barbershopkostovfade.bg/images/salon2.jpg"],
   },
