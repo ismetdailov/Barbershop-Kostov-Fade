@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 // Метаданни
 export const metadata = {
-  title: "Барбершоп Пловдив | Barbershop Kostov Fade – Модерен фейд и мъжки прически",
+  title: "Барбершоп Пловдив | Barbershop Kostov Fade Plovdiv – Модерен фейд и мъжки прически - мъжко подстригване и оформяне на брада в Пловдив",
   description: "Barbershop Kostov Fade | Оформяне на брада и подстригване в Пловдив",
   keywords: [
     "бръснарски салон",

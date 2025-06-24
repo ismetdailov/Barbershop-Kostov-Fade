@@ -9,7 +9,7 @@ import { useState } from 'react';
 import Contact from "../app/Maps";
 import Header from "./Header";
 import Head from 'next/head';
-
+import { reportConversion } from '../lib/gtag'; // коригирай пътя, ако е нужно
 
 // app/page.js (или app/home/page.js – където ти е началната страница)
 
@@ -357,7 +357,7 @@ function App() {
       <div className="floating-button">
         <button
           onClick={() =>
-            window.open("https://kostovfade.setmore.com/raycho", "_blank")
+            reportConversion("https://kostovfade.setmore.com/raycho", "_blank")
           }
           className="pulse"
         >
