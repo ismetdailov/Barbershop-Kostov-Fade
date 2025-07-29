@@ -9,7 +9,7 @@ import { useState } from 'react';
 import Contact from "../app/Maps";
 import Header from "./Header";
 import Head from 'next/head';
-import { reportConversion } from '../lib/gtag'; // коригирай пътя, ако е нужно
+import { reportConversion } from '../app/lib/gtag'; // коригирай пътя, ако е нужно
 
 // app/page.js (или app/home/page.js – където ти е началната страница)
 
