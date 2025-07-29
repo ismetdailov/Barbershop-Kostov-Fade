@@ -50,7 +50,7 @@ export const metadata = {
   creator: "Barbershop Kostov Fade",
   robots: "index, follow",
   openGraph: {
-    title: "Барбершоп Пловдив | Barbershop Kostov Fade",
+    title: "Барбершоп Пловдив |Barbershop Plovdiv – Мъжки фейд прически и бръснене в Пловдив",
     description: "Barbershop Kostov Fade | Модерен барбершоп за подстригване и оформяне на брада в Пловдив",
     url: "https://www.kostovfade.bg",
     siteName: "Barbershop Kostov Fade",

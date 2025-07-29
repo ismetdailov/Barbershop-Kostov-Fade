@@ -10,10 +10,14 @@ import "./Gallery.css";
 import Header from "../Header";
 
 const imageAlts = [
+  "Барбершоп Пловдив",
+  "Barbershop Plovdiv",
+  "Fade barbershop",
   "Мъжка прическа Skin Fade с машинка",
   "Бръснене с кърпа в Barbershop Kostov Fade",
   // Add more alt texts as needed for each image
   "Мъжка подстрижка",
+  "оформяне на брада Пловдив",
   "стилна мъжка прическа",
   "стилно оформяне на брада",
   "Мъжка подстрижка с ножица и машинка",

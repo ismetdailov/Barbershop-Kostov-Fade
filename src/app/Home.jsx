@@ -27,8 +27,8 @@ export const metadata = {
 <Head>
   <title>Barbershop Kostov Fade | Бръснарски салон в Пловдив</title>
   <meta name="description" content="Запази си час при най-добрите барбъри в Пловдив!" />
-  <meta property="og:title" content="Barbershop Kostov Fade" />
-  <meta property="og:description" content="Запази си час при най-добрите барбъри в Пловдив!" />
+  <meta property="og:title" content="Barbershop Plovdiv" />
+  <meta property="og:description" content="Барбершоп Пловдив. Запази си час при най-добрите барбъри в Пловдив!" />
   <meta property="og:image" content="https://barbershopkostovfade.bg/images/salon2.jpg" />
   <meta property="og:url" content="https://barbershopkostovfade.bg" />
   <meta property="og:type" content="website" />
@@ -146,7 +146,7 @@ const AnimatedSection = () => {
 
       <motion.img
         src="/images/sample.jpg"
-        alt="Примерно изображение"
+        alt="Barberhop Plovdiv"
         initial={{ opacity: 0, x: 100 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
@@ -179,7 +179,7 @@ function App() {
     
     <div className="App">
         <Head>
-        <meta property="og:title" content="Barbershop Kostov Fade" />
+        <meta property="og:title" content="Barbershop plovdiv" />
         <meta property="og:description" content="Запази си час при най-добрите барбъри в Пловдив!" />
         <meta property="og:image" content="https://barbershopkostovfade.vercel.app/images/salon2.jpg" />
         <meta property="og:url" content="https://barbershopkostovfade.vercel.app/" />
@@ -197,7 +197,7 @@ function App() {
           <img
             // src="/images/Untitled00086430.png"
             src="/images/salon2.jpg"
-            alt="Барбершоп Костов Фейд Салон"
+            alt="barbershop Plovdiv"
             className="zoom-image"
           />
         </div>
@@ -211,7 +211,7 @@ function App() {
           <div className="kostov-frame">
             <img
               src="/images/KostovFade4.png"
-              alt="Барбершоп Костов Фейд"
+              alt="Барбершоп Пловдив"
               className="kostov-image"
             />
           </div>
@@ -245,7 +245,7 @@ function App() {
         <div className="image-right">
           <img
             src="/images/imageGalery/2025-04-01.jpg"
-            alt="Мъжко подстригване бръснарски салон оформянве на брада"
+            alt="Барбершоп ПловдивМъжко подстригване бръснарски салон оформянве на брада"
           />
           <div className="image-frame"></div>
         </div>
