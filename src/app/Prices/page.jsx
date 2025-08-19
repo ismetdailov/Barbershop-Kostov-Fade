@@ -5,13 +5,13 @@ import Header from "../Header"; // Assuming you have a Header component
 
 const Prices = () => {
   const prices = [
-    { service: "Подстрижка", price: "20 лв" },
-    { service: "Брада", price: "15 лв" },
-    { service: "Подстригване + брада", price: "30 лв" },
-    { service: "Детско подстригване (до 10 год.)", price: "15 лв" },
-    { service: "Оформяне на вежди с бръснач", price: "5 лв" },
-    { service: "Кола маска", price: "7 лв" },
-    { service: "Измиване на коса", price: "5 лв" },
+    { service: "Подстрижка", price: "20 лв/ 10.23€ " },
+    { service: "Брада", price: "15 лв / 7,67€" },
+    { service: "Подстригване + брада", price: "30 лв / 15,34€" },
+    { service: "Детско подстригване (до 10 год.)", price: "15 лв / 7,67€" },
+    { service: "Оформяне на вежди с бръснач", price: "5 лв / 2,56€" },
+    { service: "Кола маска", price: "7 лв / 3,58€" },
+    { service: "Измиване на коса", price: "5 лв / 2,56€" },
   ];
 
   return (
