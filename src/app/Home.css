@@ -507,6 +507,19 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
+/* Кръгло видео вътре в рамката */
+.kostov-frame {
+  overflow: hidden;
+}
+
+.kostov-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
 
 /* Footer */
 footer {

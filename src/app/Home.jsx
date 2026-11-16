@@ -209,10 +209,15 @@ function App() {
 
         <div className="kostov-wrapper">
           <div className="kostov-frame">
-            <img
-              src="/images/KostovFade4.png"
-              alt="Барбершоп Пловдив"
-              className="kostov-image"
+            <video
+              src="/videos/kostov.mp4"
+              poster="/images/KostovFade4.png"
+              aria-label="Барбершоп Пловдив"
+              className="kostov-video"
+              autoPlay
+              muted
+              loop
+              playsInline
             />
           </div>
         </div>
