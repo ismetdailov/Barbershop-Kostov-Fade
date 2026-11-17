@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faScissors } from "@fortawesome/free-solid-svg-icons";
 import { FaFacebook, FaInstagram, FaBars, FaTimes } from "react-icons/fa";
 import { motion } from "framer-motion";
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import Contact from "../app/Maps";
 import Header from "./Header";
 import Head from 'next/head';
@@ -157,6 +157,22 @@ const AnimatedSection = () => {
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const videoRef = useRef(null);
+
+  // React не слага атрибута `muted` в HTML-а, а без него телефоните
+  // (особено iPhone) отказват autoplay и показват само poster-а.
+  useEffect(() => {
+    const v = videoRef.current;
+    if (!v) return;
+    v.muted = true;
+    v.defaultMuted = true;
+    v.setAttribute("muted", "");
+    const tryPlay = () => v.play().catch(() => {});
+    tryPlay();
+    // при режим за пестене на батерия – пусни при първото докосване
+    document.addEventListener("touchstart", tryPlay, { once: true, passive: true });
+    return () => document.removeEventListener("touchstart", tryPlay);
+  }, []);
   const sectionTexts = [
     " ",
     " ",
@@ -210,8 +226,9 @@ function App() {
         <div className="kostov-wrapper">
           <div className="kostov-frame">
             <video
-              src="/videos/kostov.mp4"
-              poster="/images/KostovFade4.png"
+              ref={videoRef}
+              src="/videos/kostov.mp4#t=0.1"
+              preload="auto"
               aria-label="Барбершоп Пловдив"
               className="kostov-video"
               autoPlay
